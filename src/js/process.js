@@ -63,15 +63,4 @@ input.addEventListener('click', () => {
 
 */
 
-var on=0;
-    document.getElementById('report').addEventListener('click',()=>{
-        
-            if(on == 0){
-              document.getElementById('report').style.borderColor='#0ca0c1';
-              document.getElementById('report').style.color='#0ca0c1';
-              on=1;
-            }else{
-              document.getElementById('report').style.borderColor='#ffffffff';
-              document.getElementById('report').style.color='#ffffffff';
-              on=0;
-            }});
+
