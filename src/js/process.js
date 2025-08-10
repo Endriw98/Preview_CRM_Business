@@ -41,26 +41,5 @@ function addUsers(){
 function clearform(){
     document.getElementById('new_users').reset();
 }
-/*
-const input = document.querySelector('input');
-const style = document.createElement('style');
-
-input.addEventListener('click', () => {
-  style.textContent = 'input::placeholder { color: rgba(0, 0, 0, 0); }';
-  document.head.appendChild(style);
-});*/
-/*const input = document.querySelector('input');
-        if (input) {
-            const style = document.createElement('style');
-            
-            input.addEventListener('click', () => {
-                style.textContent = 'input::placeholder { color: rgba(0, 0, 0, 0); }';
-                document.head.appendChild(style);
-            });
-        } else {
-            console.error('Elemento input não encontrado.');
-        }
-
-*/
 
 
