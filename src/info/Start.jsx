@@ -45,17 +45,12 @@ function Start({name}){
         
         <button className="icons" id='report' onClick={
           ()=>{
-            
-            
-
             if(visible == 'none'){
               setVisible('block')
               }else if(visible == 'block'){
                 setVisible( 'none')
               }
-            
           }
-
         }>Report</button>
 
         <button className="icons" id="settings">Settings</button>
