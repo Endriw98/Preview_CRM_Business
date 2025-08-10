@@ -1,5 +1,5 @@
 import React from "react";
-
+import {addUsers, c_users} from '../js/process.js';
 
 
 function Login({inputValue, setInputValue, passwordInput, setPasswordInput,onClickRULogin, onClickRVLogin}){
@@ -25,7 +25,7 @@ function Login({inputValue, setInputValue, passwordInput, setPasswordInput,onCli
                 
                 <a onClick={onClickRVLogin}>I forgot the password</a>
             </div>
-            <script src='src/js/process.js'></script>
+            
         </div>
     )
 }

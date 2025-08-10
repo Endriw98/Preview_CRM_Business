@@ -1,4 +1,5 @@
 import '../css/ForgotPass.css';
+
 function RecoverPassword({onClickSubmitRV}){
     return(
         <div id="recover-pass">

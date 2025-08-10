@@ -7,6 +7,8 @@ import Login from './pags/Login';
 import RegisterUser from './pags/RegisterUser';
 import './css/ActionsStyle.css';
 import React, { useState, useEffect } from 'react';
+import { users, c_users, addUsers } from './js/process.js'; // Assuming users.js exports the users array
+
 
 function App(){
   
@@ -91,6 +93,7 @@ function App(){
   return(
     <div id='app'>
       {renderContent()}
+      <script src='src/js/process.js'></script>
     </div>
   )
 
