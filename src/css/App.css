@@ -308,6 +308,9 @@ button:hover {
   color: #0ca0c1;
   border-color: #0ca0c1;
 }
+a:hover{
+  color: #0ca0c1;
+}
 #info{
   
   height: auto;
