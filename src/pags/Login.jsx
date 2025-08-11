@@ -17,11 +17,11 @@ function Login({inputValue, setInputValue, passwordInput, setPasswordInput,onCli
                 <form onSubmit={handleSubmit}>
                     <input type='email' onChange={handleChange} value={inputValue} id='userName' placeholder="UserName"/>
                     <input onChange={handleChangePass} value={passwordInput} type="password" placeholder="Password"/>
-                    <button type="submit" id="validate-login" >Next</button>
+                    <button type="submit" id="validate-login" > Next </button>
                     
 
                 </form>
-                <button id="register-user" onClick={onClickRULogin} >Register</button>
+                <button id="register-user" onClick={onClickRULogin} >Register </button>
                 
                 <a onClick={onClickRVLogin}>I forgot the password</a>
             </div>
