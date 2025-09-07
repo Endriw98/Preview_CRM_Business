@@ -313,7 +313,7 @@ a:hover{
   color: #0ca0c1;
 }
 #info{
-  
+  width:650px;
   height: auto;
   float: left;
   padding-top: 60px;
