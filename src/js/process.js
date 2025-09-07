@@ -41,3 +41,8 @@ export function addUsers(){
 function clearform(){
     document.getElementById('new_users').reset();
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> feb0af73abaa6863b5af2be332b95697fb42abdc
