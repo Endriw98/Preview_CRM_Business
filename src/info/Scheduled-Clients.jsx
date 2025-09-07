@@ -1,7 +1,6 @@
-
 function ScheduledClients(){
     return(
-        <div id='sc' className="info" style={{backgroundColor:'#C0CCE2', overflowY:'scroll', overflowX:'hidden'}}>
+        <div id='sc' className="info" style={{backgroundColor:'#05153B', overflowY:'scroll', overflowX:'hidden'}}>
             <table>
                 <thead>
                     <tr>

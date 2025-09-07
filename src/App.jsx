@@ -1,3 +1,4 @@
+import './css/StatsClient.css';
 import './css/App.css';
 import './css/RegisterUser.css';
 import './css/Login.css';

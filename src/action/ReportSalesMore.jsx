@@ -1,35 +1,35 @@
 import '../css/ReportSalesMore.css';
 
-function ReportSalesMore(){
+function ReportSalesMore() {
     return (
-        <div 
-            id="reportsales" 
+        <div
+            id="reportsales"
             style={{
                 backgroundColor: '#98AAFE',
-                widht:'100%', 
-                height:'100%', 
-                marginLeft:'25px', 
-                marginRight:'5px',
-                marginBottom:'50px'
+                widht: '100%',
+                height: '100%',
+                marginLeft: '25px',
+                marginRight: '5px',
+                marginBottom: '50px'
             }}>
             <h1>Report of Sales</h1>
             <div>
-                <table style={{width:'100%', marginRight:'25px'}}>
-                    <tr style={{height:'50px'}}>
-                        <th 
+                <table style={{ width: '100%', marginRight: '25px' }}>
+                    <tr style={{ height: '50px' }}>
+                        <th
                             style={{
-                                backgroundColor:'rgba(255,255,255,0)', 
-                                borderTop:'0px', 
-                                borderLeft:'0px'
+                                backgroundColor: 'rgba(255,255,255,0)',
+                                borderTop: '0px',
+                                borderLeft: '0px'
                             }}>
 
                         </th>
-                        <th>Data</th>                        
+                        <th>Data</th>
                         <th>Diário</th>
                         <th>Mensal</th>
                         <th>Anual</th>
                     </tr>
-                    
+
                     <tr>
                         <th>Produtos mais vendidos</th>
                         <td>1</td>
@@ -104,8 +104,8 @@ function ReportSalesMore(){
             </div>
             <div id='rs_serch'>
                 <h2>Pesquisar</h2>
-                <input type='data' placeholder='Informe a Data'/>
-                
+                <input type='data' placeholder='Informe a Data' />
+
             </div>
         </div>
     )

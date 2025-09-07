@@ -1,10 +1,11 @@
-#main-start{
-    background-color:blue;
-    color:white;
+#main-start {
+    background-color: blue;
+    color: white;
 }
-#nav-bar-top{
-    width:99.7%;
-    height:auto;
-    margin-right:0px;
+
+#nav-bar-top {
+    width: 99.7%;
+    height: auto;
+    margin-right: 0px;
     padding: 10px;
 }

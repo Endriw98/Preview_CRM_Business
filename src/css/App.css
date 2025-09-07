@@ -8,7 +8,7 @@
   100%{display:block}
 }
 body{
-  background-color: #E6EEFA;
+  background-color: #ffffff;
   overflow-x: hidden;
 }
 body::-webkit-scrollbar{
@@ -60,8 +60,9 @@ body::-webkit-scrollbar-track{
   background-color: #C0CCE2;
   border-left: 0px;
   padding-top: 10px;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 50px black;
   position: fixed;
+  z-index: 1;
 }
 .op{
   float: right;

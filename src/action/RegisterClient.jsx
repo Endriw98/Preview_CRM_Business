@@ -1,20 +1,20 @@
 
-function RegisterClient(){
+function RegisterClient() {
     return (
-        <div 
+        <div
             id="register_client"
             style={{
-                width:'34%', 
-                height:'600px'
+                width: '34%',
+                height: '600px'
             }}>
             <h1>Register Client</h1>
-            <div id="forms">
+            <div id="Forms">
                 <forms id="reg-clients">
                     <h1>Register People</h1>
                     <input placeholder="Name" />
-                    <input placeholder="Age"/>
-                    <input placeholder="Documents"/>
-                    <input placeholder="Date of Birth"/>
+                    <input placeholder="Age" />
+                    <input placeholder="Documents" />
+                    <input placeholder="Date of Birth" />
                     <button>Send</button>
                 </forms>
                 <forms id="reg-numbs">

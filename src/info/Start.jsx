@@ -33,39 +33,30 @@ function Start({name}){
       <div id="nav-bar-left" style={{height:dimensions.height+'px'}}>
         <div id="icon-logo"></div>
         <h3>Enterprise</h3>
-
-        
         <button className="icons" id="home" onClick={()=>{setAction(<div><StatsClients/><ReportSales/><ScheduledClients/><StatsSales/></div>)}}>Start</button>
-        
-
-        
         <button className="icons" id="campaign-icon" onClick={()=>{setAction(<div><Campaign /><RegisterClient/></div>)}}>Center of Clients</button>
-        
-
-        
         <button className="icons" id='report' onClick={
           ()=>{
-            
-            
-
             if(visible == 'none'){
               setVisible('block')
               }else if(visible == 'block'){
                 setVisible( 'none')
               }
-            
           }
-
         }>Report</button>
 
         <button className="icons" id="settings">Settings</button>
         
+        
       </div>
       <div>
       <div id='category' style={{display:visible}}>
-        <button className="icons" id="report-c"> Client Report</button>
+        <button className="icons" id="report-c" onClick={()=>{setVisible('none')}}> Client Report</button>
         
-        <button className="icons" id="report-s" onClick={()=>{setAction(<div><ReportSalesMore/></div>)}}>Sales Report</button>
+        <button className="icons" id="report-s" onClick={()=>{
+          setAction(<div><ReportSalesMore/></div>);
+          setVisible('none');
+          }}>Sales Report</button>
         
       </div>
         <div id="nav-bar-top">
@@ -94,6 +85,7 @@ function Start({name}){
 
         <div id='info' style={{width:dimensions.width-80+'px'}}>
         {action}
+        
         </div>
       </div>
       

@@ -1,7 +1,7 @@
 function ReportSales(){
     
     return(
-        <div id="report-sales" className="info" style={{backgroundColor:'#C0CCE2'}}>
+        <div id="report-sales" className="info" >
             <h1>Monthly profit</h1>
             <div id="graf-1">
             </div>

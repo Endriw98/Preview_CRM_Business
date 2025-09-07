@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import ReactDataGrid from '@inovua/reactdatagrid-community';
 import ExcelJS from 'exceljs';
-import '../js/process.js';
+
 
 const columns = [{name: 'name', header: 'Name', defaultFlex: 1}, {name: 'age', header: 'Age', defaultFlex: 1}];
 function CreateExcel (){
